@@ -1,0 +1,35 @@
+body{
+    background: url(https://wallpapercave.com/wp/wp6350573.jpg);
+    background-size: cover;
+}
+
+.container{
+    box-sizing: border-box;
+}
+
+.principal{
+    border: 1px solid white;
+    height: 100vh;
+    border-radius: 20px;
+    width: 900px;
+    margin: 0 auto;
+    background: rgba(0, 4, 138, 0.4);
+    box-shadow: 0 0 1em gold;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.radiobox{
+    margin-left: 10px;
+}
+
+.btn-check {
+    border: 1px solid red;
+    color: black;
+}
+
+.enviar{
+    text-align: center;
+}

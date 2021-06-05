@@ -12,12 +12,119 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="Css/style.css">
     <title>Meu cadastro de Dev's</title>
 </head>
 
 <body>
-    <div class="container">
-        
+    <div class="container text-info">
+        <div class="row">
+            <div class="principal col-md-12">
+                <div class="titulo">
+                    <h1 class="display-1 text-info">Cadastro de Dev's</h1>
+                    <p class="text-info">Complete suas informações:</p>
+                </div>
+                <form action="" class="mt-4">
+                    <div class="dados">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="" for="">Nome</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="" for="">Sobrenome</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="" for="">E-mail</label>
+                                <input class="form-control" type="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="radiobox row col-sm-6 mt-4">
+                        <p>De qual lado da aplicação você desenvolve?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Front-End
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Back-End
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault">
+                            <label for="flexRadioDefault3" class="form-check-label">FullStack</label>
+                        </div>
+                    </div>
+                    <div class="senior row">
+                        <div class="col-md-6 mt-4">
+                            <p>Selecione seu nível de desenvolvimento:</p>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Senioridade</option>
+                                <option value="1">Júnior</option>
+                                <option value="2">Pleno</option>
+                                <option value="3">Sênior</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="tecnologies row mt-4">
+                        <div class="col-sm-12">
+                            <p>Selecione as tecnologias que utiliza:</p>
+                            <div class="btn-group bg-light" role="group"
+                                aria-label="Basic checkbox toggle button group">
+                                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck1">Html</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck2">Css</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck3">JavaScript</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck4">Java</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck5">PHP</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck6">MySQL</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck7">Python</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck8">C#</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck9">Cobol</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-me">
+                        <div class="row mt-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Conte um pouco mais de sua experiência:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enviar">
+                        <div class="row mt-4">
+                            <div class="">
+                                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 
